@@ -6,6 +6,10 @@ header{
     display: flex;
 }
 
+button{
+    cursor: pointer;
+}
+
 header nav{
     position: relative;
     top: 0;
@@ -261,6 +265,10 @@ main .line1,.line2,.line3,.line4{
     margin-top: 3vh;
 }
 
+.newnews:hover{
+    color: blue;
+}
+
 footer{
     padding-top: 5vh;
     display: flex;
@@ -290,6 +298,10 @@ footer nav button{
     /* width: 60vw; */
     border:0;
     background-color: white;
+}
+
+footer nav button:hover{
+    color: blue;
 }
 
 footer p{
@@ -332,9 +344,47 @@ footer nav button b{
         height: 2.5vh;
     }
 
+    .image{
+        display: none;
+    }
+
+    header nav .whv{
+        gap: 2vw;
+        > button{
+            width: 20vw;
+        }
+
+        > .valuet{
+            width: 20vw;
+        }
+    }
+
     .tailbar{
         position: absolute;
-        top: 0;
+        bottom: 0;
+        background: linear-gradient(0deg,rgba(0,0,0,.6),hsla(0,0%,47.8%,0));
+        padding: 20px 20px 30px;
+
+        > .logob{
+            background: linear-gradient(129deg,#c40097,#d6710b);
+            background-image: linear-gradient(-120deg,#e08100,#c90027);
+            border: 0;
+            border-radius: 10px;
+            color: white;
+        }
+
+        > .s{
+            display: none;
+        }
+
+        > p{
+            color: white;
+        }
+
+        > .shareb{
+            border: 0;
+            border-radius: 10px;
+        }
     }
 
     .firstnews{
@@ -349,10 +399,6 @@ footer nav button b{
     header nav .headermenu{
         display: flex;
         flex-direction:column ;
-    }
-
-    .critcalnews{
-        display: none;
     }
 
     .conews{
@@ -377,7 +423,6 @@ footer nav button b{
     .ub{
         display: none;
     }
-
 
     .content1,.content2,.content3{
         top: 0;
@@ -461,10 +506,6 @@ footer nav button b{
         display: none;
     }
 
-    .critcalnews{
-        display: none;
-    }
-
     header nav .weather .weather1,.horoscope1,.valuet1{
         display: flex;
         justify-content: center;
@@ -476,7 +517,7 @@ footer nav button b{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        width: 10vw;
+        width: 13vw;
         height: 7vh;
         padding-top: 1vh;
         margin-top: 1vh;
@@ -492,8 +533,40 @@ footer nav button b{
         margin: 0;
     }
 
+    .tailbar{
+        position: absolute;
+        bottom: 0;
+        background: linear-gradient(0deg,rgba(0,0,0,.6),hsla(0,0%,47.8%,0));
+        padding: 20px 20px 30px;
+
+        > .logob{
+            background: linear-gradient(129deg,#c40097,#d6710b);
+            background-image: linear-gradient(-120deg,#e08100,#c90027);
+            border: 0;
+            border-radius: 10px;
+            color: white;
+        }
+
+        > .s{
+            display: none;
+        }
+
+        > p{
+            color: white;
+        }
+
+        > .shareb{
+            border: 0;
+            border-radius: 10px;
+        }
+    }
+
     header nav .whv .valuet{
-        width: 10vw;
+        width: 14vw;
+    }
+
+    .firstnews{
+        position: relative;
     }
 
     .conews{
@@ -664,7 +737,7 @@ footer nav button b{
         display: none;
     }
 
-    .critcalnews{
+    .image{
         display: none;
     }
 
