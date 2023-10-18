@@ -1,0 +1,1036 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+}
+
+header nav{
+    position: relative;
+    top: 0;
+}
+
+header nav p{
+    font-size: 11px;
+    margin: 0;
+}
+
+
+header nav{
+    display: flex;
+    width: 100vh;
+    height: 100%;
+    background-color: white;
+    justify-content: space-between;
+}
+
+header nav .whv{
+    display: flex;
+    margin-bottom: 2px;
+}
+
+header nav .whv .tools{
+    display: flex;
+}
+
+header nav .whv .tools button{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    width: 9vw;
+    border: 0;
+    box-shadow: none;
+}
+
+header nav .whv .tools .search{
+    width: 3vw;
+    margin-right: 4vw;
+}
+
+header nav .whv .tools button img{
+    width: 1vw;
+}
+
+
+#reddot{
+    width: 0.7vw;
+}
+
+
+header nav .weather .weather1,.horoscope1,.valuet1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .whv button:hover{
+    background-color: rgb(234, 233, 231);
+}
+
+/* header nav .whv img{
+    width: 6vw;
+    height: 4vh;
+} */
+
+header nav .firstcolumn,.secondcolumn,.thirdcolumn{
+    display: flex;
+    flex-direction: column;
+}
+
+header nav .whv label img{
+    width: 17vw;
+    height: 4vh;
+}
+
+header nav .whv label{
+    display: flex;
+    align-items: center;
+}
+
+header nav .whv .valuet span{
+    width: 3vw;
+    height: 2vh;
+    color: green;
+}
+
+header nav .whv .valuet{
+    width: 15vw;
+}
+
+header nav .headermenu button{
+    width: 10vw;
+    height: 8vh;
+    background-color: white;
+    border-radius: 10%;
+    border: 0;
+}
+
+
+header nav .whv button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 13vw;
+    height: 7vh;
+    padding-top: 1vh;
+    margin-top: 1vh;
+    border-radius: 10%;
+    background-color: white;
+    border: 1px rgb(218, 214, 214) solid;
+    box-shadow: 2px 2px 2px rgb(193, 186, 186);
+}
+
+
+header nav label span{
+    color: rgb(69, 117, 221);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main .news .newsbtns button:hover{
+    background-color: rgb(44, 44, 129);
+}
+
+
+main .firstnews{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg,#fff,#f7f7f7)
+}
+
+.conews1,.conews2,.conews3,.conews4{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 30vh
+}
+
+
+main .firstnews .conews .conews1navb,.conews2navb,.conews3navb,.conews4navb{
+    display: flex;
+}
+
+#opennig,#zandan,#zandan1{
+    width: 20vw;
+    height: 20vh;
+    border-radius: 5%;
+}
+
+#socialpay{
+    width: 25vw;
+    height: 30vh;
+    border-radius: 5%;
+}
+
+main .news p{
+    font-size: 14px;
+}
+
+main .news .newsbtns .new,.trend{
+    width: 33vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 22, 59);
+    color: white;
+    border: 0;
+}
+
+
+main .news .newsbtns .spe{
+    width: 34vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 22, 59);
+    color: white;
+    border: 0;
+}
+
+main .news{
+    display: flex;
+    flex-direction: column;
+}
+
+main .news .newsturk,.student,.airport,.ads,.bus,.museum,.israel,.work,.golomt,.judge,.china{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+    margin: auto;
+
+}
+
+
+main .news .newsbar .newsturk #mglturk1,#student1,#airport1,#bus1,#museum1,#israel1,#work1,#golomt1,#judge1{
+    width: 90vw;
+    height: 40vh;
+    border-radius: 3%;
+}
+
+.mglturk1nav,.student1nav,.airport1nav,.bus1nav,.museum1nav,.israel1nav,.work1nav,.golomt1nav,.judge1nav{
+    display: flex;
+    justify-content: flex-start;
+    width: 90vw;
+}
+
+.newsbar{
+    display: flex;
+    flex-direction: column;
+}
+
+main .line1,.line2,.line3,.line4{
+    display: flex;
+    flex-direction: column;
+}
+
+.mglturk1navb,.student1navb,.airport1navb,.bus1navb,.museum1navb,.israel1navb,.work1navb,.golomt1navb,.judge1navb{
+    display: flex;
+    gap: 5vw;
+}
+
+.sharetool,.commenttool,.timetool{
+    display: flex;
+    border: 0;
+    background-color: white;
+    height: 2vh;
+}
+
+.sharetool,.commenttool,.timetool{
+    color: grey;
+}
+
+.sharetool,.commenttool,.timetool img{
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.newnews{
+    width: 90vw;
+    height: 10vh;
+    border: 0;
+    border-radius: 5%;
+    margin: auto;
+    font-size: 1.2rem;
+    margin-top: 3vh;
+}
+
+footer{
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footernav{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+footer img{
+    height: 5vh;
+}
+
+footer .first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+}
+
+footer nav button{
+    /* width: 60vw; */
+    border:0;
+    background-color: white;
+}
+
+footer p{
+    color: rgb(53, 51, 51);
+    display: flex;
+}
+
+footer nav button b{
+    font-size: 1rem;
+}
+
+.social{
+    /* width: 90vw; */
+    padding-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+
+.social img{
+    height: 2vh;
+    width: 3vw;
+}
+
+.social img svg{
+    color: gray;
+}
+
+.social button{
+    width: 3vw;
+}
+
+@media (min-width: 300px) and (max-width: 650px){
+    header nav .whv .tools{
+        display: none;
+    }
+
+    .weather1 img{
+        height: 2.5vh;
+    }
+
+    .tailbar{
+        position: absolute;
+        top: 0;
+    }
+
+    .firstnews{
+        position: relative;
+    }
+
+    .last p{
+        font-size: 0.8rem;
+        width: 90vw;
+    }
+
+    header nav .headermenu{
+        display: flex;
+        flex-direction:column ;
+    }
+
+    .critcalnews{
+        display: none;
+    }
+
+    .conews{
+        display: none;
+    }
+
+    main .news .newsbtns{
+        display: flex;
+        width: 100vw;
+        height: 5vh;
+        padding-bottom: 3vh;
+    }
+
+    footer .last p{
+        margin: auto;
+    }
+
+    .social{
+        margin-bottom: 5vh;
+    }
+
+    .ub{
+        display: none;
+    }
+
+
+    .content1,.content2,.content3{
+        top: 0;
+        height: 20vh;
+        position: absolute;
+        background: rgba(33, 32, 32, 0.6);
+        color: white;
+        opacity: 0;
+        transition: 0.6s;
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content4,.content5,.content6,.content7,.content8,.content9,.content10,.content11{
+        top: 0;
+        height: 40vh;
+        position: absolute;
+        background: rgba(33, 32, 32, 0.6);
+        color: white;
+        opacity: 0;
+        transition: 0.6s;
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .newsbar{
+        gap: 5vh;
+    }
+
+    .line1,.line2,.line3,.line4{
+        gap: 5vh;
+    }
+
+    .line1 .newsturk, .student{
+        position: relative;
+    }
+
+    .line2 .bus, .museum{
+        position: relative;
+    }
+    
+    .line3 .israel, .work{
+        position: relative;
+    }
+    
+     .line4 .golomt, .judge{
+        position: relative;
+    }
+
+
+    .image1:hover .content1{
+        opacity: 1;
+    }
+
+    .image2:hover .content2{
+        opacity: 1;
+    }
+
+    .image3:hover .content3,.image4:hover .content4,.image5:hover .content5,.image6:hover .content6,.image7:hover .content7,.image8:hover .content8,.image9:hover .content9,.image10:hover .content10,.image11:hover .content11{
+        opacity: 1;
+    }
+
+    .image:hover .content{
+        opacity: 1;
+    }
+}
+
+@media (min-width: 651px) and (max-width: 960px) {
+    
+    
+    header nav .whv label img{
+        width: 11vw;
+        height: 3vh;
+    }
+
+    header nav .whv .tools{
+        display: none;
+    }
+
+    .critcalnews{
+        display: none;
+    }
+
+    header nav .weather .weather1,.horoscope1,.valuet1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav .whv button{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 10vw;
+        height: 7vh;
+        padding-top: 1vh;
+        margin-top: 1vh;
+        border-radius: 10%;
+        background-color: white;
+        border: 1px rgb(218, 214, 214) solid;
+        box-shadow: 2px 2px 2px rgb(193, 186, 186);
+    }
+
+
+    header nav p{
+        font-size: 15px;
+        margin: 0;
+    }
+
+    header nav .whv .valuet{
+        width: 10vw;
+    }
+
+    .conews{
+        display: none;
+    }
+    
+    main .news .newsbar{
+        gap: 6vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main .news .newsbtns{
+        display: flex;
+        width: 100vw;
+        height: 5vh;
+        padding-bottom: 3vh;
+    }
+
+
+    main .news .newsbtns .spe{
+        width: 34vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(28, 22, 59);
+        color: white;
+        border: 0;
+    }
+    
+    main .mglturk{
+        width: 100vw;
+    }
+    
+    main .news .newsturk,.student,.airport,.ads,.bus,.museum,.israel,.work,.golomt,.judge,.china{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 45vw;
+        margin: auto;
+    
+    }
+
+    main .line1,.line2,.line3,.line4{
+        flex-direction: row;
+    }
+    
+    
+    main .news .newsbar .newsturk #mglturk1,#student1,#airport1,#bus1,#museum1,#israel1,#work1,#golomt1,#judge1{
+        width: 45vw;
+        height: 30vh;
+        border-radius: 3%;
+    }
+    
+    .mglturk1nav,.student1nav,.airport1nav,.bus1nav,.museum1nav,.israel1nav,.work1nav,.golomt1nav,.judge1nav{
+        display: flex;
+        justify-content: flex-start;
+        width: 45vw;
+    }
+    
+    .mglturk1navb,.student1navb,.airport1navb,.bus1navb,.museum1navb,.israel1navb,.work1navb,.golomt1navb,.judge1navb{
+        display: flex;
+        gap: 2vw;
+    }
+    
+    footer{
+        padding-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .first{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 10vh;
+        width: 90vw;
+    }
+    
+    footer .first .footernav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer nav button{
+        border:0;
+        background-color: white;
+        width: 12vw;
+    }
+    
+    footer p{
+        color: rgb(53, 51, 51);
+        font-size: 0.8rem;
+        margin: auto;
+    }
+    
+    footer nav button b{
+        font-size: 1rem;
+    }
+
+   .last{
+    display: flex;
+    width: 90vw;
+   }
+
+   .social{
+    margin-bottom: 5vh;
+}
+
+   footer .last p{
+    margin: auto;
+    font-size: 1.1rem;
+}
+    
+    .social{
+        width: 90vw;
+        padding-top: 3vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        margin-bottom: 5vh;
+    }
+    
+    .social img{
+        height: 2vh;
+        width: 3vw;
+    }
+    
+    .social img svg{
+        color: gray;
+    }
+    
+    .social button{
+        width: 3vw;
+    }
+
+    footer img{
+        height: 6vh;
+        width: 15vw;
+        margin: auto;
+    }
+
+    
+    .social{
+        padding-top: 3vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5vh;
+    }
+    
+    .social img{
+        height: 2vh;
+        width: 2vw;
+    }
+    
+    .social img svg{
+        color: gray;
+    }
+
+    .ub{
+        display: none;
+    }
+
+    .critcalnews{
+        display: none;
+    }
+
+
+    .content1,.content2,.content3{
+        top: 0;
+        height: 20vh;
+        position: absolute;
+        background: rgba(33, 32, 32, 0.6);
+        color: white;
+        opacity: 0;
+        transition: 0.6s;
+        width: 20vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content4,.content5,.content6,.content7,.content8,.content9,.content10,.content11{
+        top: 0;
+        height: 30vh;
+        position: absolute;
+        background: rgba(33, 32, 32, 0.6);
+        color: white;
+        opacity: 0;
+        transition: 0.6s;
+        width: 45vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .line1,.line2,.line3,.line4{
+        position: relative;
+    }
+
+
+    .image1:hover .content1{
+        opacity: 1;
+    }
+
+    .image2:hover .content2{
+        opacity: 1;
+    }
+
+    .image3:hover .content3,.image4:hover .content4,.image5:hover .content5,.image6:hover .content6,.image7:hover .content7,.image8:hover .content8,.image9:hover .content9,.image10:hover .content10,.image11:hover .content11{
+        opacity: 1;
+    }
+
+    .image:hover .content{
+        opacity: 1;
+    }
+}
+
+@media (min-width: 961px) and (max-width: 2200px){
+
+    header nav .whv label img{
+        width: 10vw;
+        height: 4vh;
+    }
+
+    main .firstnews .conews{
+        display: flex;
+        width: 90vw;
+        margin: auto;
+        gap: 2vw;
+        height: 37vh;
+    }
+
+    header nav{
+        width: 90vw;
+        margin: auto;
+    }
+
+    header nav .whv button{
+        width: 10vw;
+        height: 8vh;
+        border: 0;
+        box-shadow: none;
+    }
+
+    .weather1{
+        gap: 0;
+    }
+
+    header nav .whv button p b{
+        font-size: 20px;
+    }
+
+    header nav .whv .search{
+        width: 3vw;
+    }
+
+    header nav .whv .valuet{
+        width: 7vw;
+    }
+
+    .headermenu{
+        display: none;
+    }
+
+    .firstnews{
+        gap: 5vh;
+        margin-bottom: 10vh;
+    }
+
+    .conews{
+        display: block;
+    }
+
+    .critcalnews{
+        display: flex;
+        gap: 10vw;
+        width: 90vw;
+        margin: auto;
+        gap: 4vw;
+    }
+
+    .critcalnews .tailbar{
+        width: 43vw;
+    }
+
+    .critcalnews #awgai{
+        width: 43vw;
+        border-radius: 3%;
+        margin: auto;
+    }
+
+    .tailbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+
+    .tailbar .logob{
+        background: linear-gradient(129deg,#c40097,#d6710b);
+        background-image: linear-gradient(-120deg,#e08100,#c90027);
+        color: white;
+        width: 7vw;
+    }
+
+    .logob:hover{
+        width: 8vw;
+    }
+
+    .tailbar p b{
+        font-size: 1.5rem;
+        color: black;
+    }
+    .tailbar p,.tailbar .shareb{
+        color: rgb(117, 114, 114);
+    }
+
+    .shareb:hover{
+        width: 7vw;
+    }
+
+    .tailbar button{
+        width: 5vw;
+        height: 4vh;
+        border: 0;
+        border-radius: 20%;
+
+    }
+
+    main .mglturk{
+        width: 91vw;
+        margin: auto;
+        border-radius: 5%;
+        display: none;
+    }
+
+    .newsbtns{
+        display: none;
+    }
+
+    main .news .newsturk,.student,.airport,.ads,.bus,.museum,.israel,.work,.golomt,.judge,.china{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 45vw;
+        margin: auto;
+    
+    }
+
+    main .line1,.line2,.line3,.line4{
+        flex-direction: row;
+    }
+
+    .sharetool0,.commenttool0,.timetool0{
+        display: flex;
+        border: 0;
+        height: 2vh;
+        background-color: rgb(249, 246, 241);
+    }
+    
+    
+    main .news .newsbar .newsturk #mglturk1,#student1,#airport1,#bus1,#museum1,#israel1,#work1,#golomt1,#judge1{
+        width: 45vw;
+        height: 40vh;
+        border-radius: 3%;
+    }
+    
+    .mglturk1nav,.student1nav,.airport1nav,.bus1nav,.museum1nav,.israel1nav,.work1nav,.golomt1nav,.judge1nav{
+        display: flex;
+        justify-content: flex-start;
+        width: 45vw;
+    }
+    
+    .mglturk1navb,.student1navb,.airport1navb,.bus1navb,.museum1navb,.israel1navb,.work1navb,.golomt1navb,.judge1navb{
+        display: flex;
+        gap: 2vw;
+    }
+
+    footer{
+        margin-bottom: 10vh;
+    }
+
+    footer .first{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 10vh;
+        width: 90vw;
+    }
+    
+    footer .first .footernav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .line1,.line2,.line3,.line4{
+        margin-bottom: 5vh;
+    }
+
+    .last{
+        display: flex;
+        justify-content: space-between;
+        width: 90vw;
+    }
+
+    footer .last p,.social{
+       align-items: center;
+    }
+
+    /* hover endees ehelj bn */
+
+
+    .medeenav,.gogobulannav,.uzehnav,.hewmaygnav{
+        position: absolute;
+        opacity: 0;
+        width: 40vw;
+        height: 10vh;
+        top: 7vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li{
+        color: black;
+        font-size: 20px;
+    }
+
+    .medee:hover .medeenav,.gogobulan:hover .gogobulannav,.uzeh:hover .uzehnav,.hewmayg:hover .hewmaygnav{
+        opacity: 1;
+    }
+
+    .ub{
+        display: none;
+        position: absolute;
+        top: 10vh;
+        background-color: rgb(252, 250, 250);
+        color: rgb(4, 4, 4);
+    }
+
+    .weather:hover .ub{
+        display: block;
+    }
+
+    .social button:hover img{
+        width: 5vw;
+        height: 5vh;
+    }
+
+    .critcalnews{
+        position: relative;
+    }
+
+    .conews{
+        position: relative;
+    }
+
+    .line1,.line2,.line3,.line4{
+        position: relative;
+    }
+
+    .content{
+        top: 0;
+        right: 0;
+        position: absolute;
+        background: rgba(33, 32, 32, 0.6);
+        color: white;
+        opacity: 0;
+        transition: 0.6s;
+        width: 43vw;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content1,.content2,.content3{
+        top: 0;
+        height: 20vh;
+        position: absolute;
+        background: rgba(33, 32, 32, 0.6);
+        color: white;
+        opacity: 0;
+        transition: 0.6s;
+        width: 20vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content4,.content5,.content6,.content7,.content8,.content9,.content10,.content11{
+        top: 0;
+        height: 40vh;
+        position: absolute;
+        background: rgba(33, 32, 32, 0.6);
+        color: white;
+        opacity: 0;
+        transition: 0.6s;
+        width: 45vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image1:hover .content1{
+        opacity: 1;
+    }
+
+    .image2:hover .content2{
+        opacity: 1;
+    }
+
+    .image3:hover .content3,.image4:hover .content4,.image5:hover .content5,.image6:hover .content6,.image7:hover .content7,.image8:hover .content8,.image9:hover .content9,.image10:hover .content10,.image11:hover .content11{
+        opacity: 1;
+    }
+
+    .image:hover .content{
+        opacity: 1;
+    }
+    /* .medee:hover .medeenav{
+        display: block;
+    } */
+    main .news p{
+        font-size: 20px;
+    }
+
+    footer .social{
+        gap: 1vw;
+    }
+}
