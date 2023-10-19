@@ -6,9 +6,50 @@ header{
     display: flex;
 }
 
+::marker{
+    color: blue;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 button{
     cursor: pointer;
 }
+
+.search{
+    display: flex;
+}
+
+.search:active{
+    > input{
+        opacity: 1;
+        width: 42vw;
+        height: 3vh;
+        left: 12%;
+    }
+}
+
+.tailbar .shareb{
+    transition: transform 0.3s;
+}
+
+.tailbar .shareb:hover{
+    > .sharebb{
+        transform: translatez(-20px);
+        animation{
+            rotate: 0.5s infinite line
+        }
+    }
+}
+
+input{
+    position: absolute;
+    opacity: 0;
+}
+
 
 header nav{
     position: relative;
@@ -80,6 +121,7 @@ header nav .whv button:hover{
 header nav .firstcolumn,.secondcolumn,.thirdcolumn{
     display: flex;
     flex-direction: column;
+    gap: 3vh;
 }
 
 header nav .whv label img{
@@ -147,11 +189,17 @@ main .firstnews{
     background: linear-gradient(180deg,#fff,#f7f7f7)
 }
 
-.conews1,.conews2,.conews3,.conews4{
+.conews1,.conews2,.conews3{
     display: flex;
     flex-direction: column;
     width: 20vw;
     height: 30vh
+}
+
+.conews4{
+    display: flex;
+    width: 25vw;
+    height: 30vh;
 }
 
 
@@ -165,11 +213,64 @@ main .firstnews .conews .conews1navb,.conews2navb,.conews3navb,.conews4navb{
     border-radius: 5%;
 }
 
-#socialpay{
+.socialpay,.fuzetea,.beejin{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#socialpay,#fuzetea,#beejin{
     width: 25vw;
     height: 30vh;
     border-radius: 5%;
+    display: none;
+    position: absolute;
 }
+
+.conews4{
+    position: relative;
+    display: flex;
+}
+
+.socialpay button, .beejin button, .fuzetea button{
+    border: 0;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(33, 147, 234);
+    z-index: 2;
+    right: 0;
+}
+
+.beejin button{
+    z-index: 3;
+}
+
+.fuzetea button{
+    z-index: 4;
+}
+
+
+.socialpay button:hover{
+    + #socialpay{
+        display: block;
+    }
+    background-color: blue;
+}
+
+.fuzetea button:hover{
+    + #fuzetea{
+        display: block;
+    }
+    background-color: blue;
+}
+
+.beejin button:hover{
+    + #beejin{
+        display: block;
+    }
+    background-color: blue;
+}
+
 
 main .news p{
     font-size: 14px;
@@ -992,12 +1093,15 @@ footer nav button b{
     .medeenav,.gogobulannav,.uzehnav,.hewmaygnav{
         position: absolute;
         opacity: 0;
-        width: 40vw;
-        height: 10vh;
-        top: 7vh;
+        width: 30vw;
+        height: 25vh;
+        top: 10vh;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: white;
+        z-index: 1;
+        gap: 2vw;
     }
 
     li{
@@ -1005,7 +1109,7 @@ footer nav button b{
         font-size: 20px;
     }
 
-    .medee:hover .medeenav,.gogobulan:hover .gogobulannav,.uzeh:hover .uzehnav,.hewmayg:hover .hewmaygnav{
+    .medee:active .medeenav,.gogobulan:active .gogobulannav,.uzeh:active .uzehnav,.hewmayg:active .hewmaygnav{
         opacity: 1;
     }
 
